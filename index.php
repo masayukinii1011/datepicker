@@ -7,6 +7,11 @@
   <title>DatePicker</title>
 </head>
 <body>
+  <p>
+  <?php
+    echo htmlspecialchars('<input type="month">', ENT_QUOTES, 'UTF-8')
+  ?>
+  </p>
   <input type="month">
 </body>
 </html>
