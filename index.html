@@ -23,7 +23,8 @@
 </body>
 <script>
   $('button').on('click', function () {
-    $('input').trigger('focus')
+    $('input').css('visibility', 'visible').trigger('focus')
+
   })
 </script>
 
