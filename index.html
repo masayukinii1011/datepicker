@@ -13,6 +13,7 @@
       width: 0;
       height: 0;
       visibility: collapse;
+      pointer-events: none;
     }
   </style>
 </head>
