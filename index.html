@@ -12,7 +12,8 @@
     input {
       width: 0;
       height: 0;
-      visibility: collapse;
+      opacity: 0;
+      visibility: hidden;
       pointer-events: none;
     }
   </style>
@@ -24,7 +25,7 @@
 </body>
 <script>
   $('button').on('click', function () {
-    $('input').css('visibility', 'visible').css('opacity', '0').trigger('focus')
+    $('input').css('visibility', 'visible').trigger('focus')
 
   })
 </script>
